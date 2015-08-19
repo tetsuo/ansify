@@ -1,0 +1,35 @@
+{
+  "name": "ansify",
+  "version": "0.1.0",
+  "description": "browserify transform to inline ansi graphics as png",
+  "main": "index.js",
+  "dependencies": {
+    "escapes": "^0.1.0",
+    "through2": "^2.0.0"
+  },
+  "devDependencies": {
+    "browserify": "^11.0.1",
+    "tape": "^4.2.0"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tetsuo/ansify.git"
+  },
+  "keywords": [
+    "ansi",
+    "canvas",
+    "ansi art",
+    "escapes",
+    "browserify",
+    "transform"
+  ],
+  "author": "Onur Gunduz <ogunduz@gmail.com> (http://onurgunduz.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tetsuo/ansify/issues"
+  },
+  "homepage": "https://github.com/tetsuo/ansify#readme"
+}
